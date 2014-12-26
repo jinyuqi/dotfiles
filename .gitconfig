@@ -1,0 +1,4 @@
+[diff]
+	external = ~/.git-meld.sh
+[alias]
+	diffall = git-diffall
