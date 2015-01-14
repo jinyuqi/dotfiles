@@ -393,7 +393,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'  
 
 " 自动补全单引号，双引号等
-Plugin 'Raimondi/delimitMate'
+"Plugin 'Raimondi/delimitMate'
+Plugin 'jiangmiao/auto-pairs'
 
 " 快速加入修改环绕字符
 Plugin 'tpope/vim-surround'
@@ -414,6 +415,8 @@ Plugin 'DrawIt'
 
 " align tool -- visual + <leader>t=
 Plugin 'vim-scripts/Align'
+
+"Plugin 'vim-scripts/TagHighlight'
 
 " Viki -- Vim Wiki
 Plugin 'tomtom/tlib_vim'
