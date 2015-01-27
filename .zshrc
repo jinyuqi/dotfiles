@@ -1,6 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
+# and this line should be before from 'source $ZSH/oh-my-zsh.sh'
+fpath=(/home/jinyuqi/dotfiles/zsh-completions/src $fpath)
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -84,10 +88,3 @@ alias firefox='~/application/qtcreator2.7.2/qtcreator'
 export LD_LIBRARY_PATH="/home/jinyuqi/llvm/lib:${LD_LIBRARY_PATH}"
 
 [[ -s /home/jinyuqi/.autojump/etc/profile.d/autojump.sh ]] && source /home/jinyuqi/.autojump/etc/profile.d/autojump.sh
-
-#fpath="~/zsh-completion/ninja-completion:${fpath}"
-
-#source ~/ninja_complete.sh
-
-# after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
-fpath=(/home/jinyuqi/dotfiles/zsh-completions/src $fpath)
