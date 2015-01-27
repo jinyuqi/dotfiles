@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
 # and this line should be before from 'source $ZSH/oh-my-zsh.sh'
-fpath=(/home/jinyuqi/dotfiles/zsh-completions/src $fpath)
+fpath=(/home/jinyuqi/dotfiles/zsh-completions/ $fpath)
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
