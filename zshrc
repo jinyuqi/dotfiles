@@ -53,7 +53,7 @@ plugins=(git autojump github)
 
 # User configuration
 
-export PATH="/home/jinyuqi/nodejs/bin:/home/jinyuqi/ruby/bin:/home/jinyuqi/.autojump/bin:/home/jinyuqi/python3/bin:/home/jinyuqi/socat/bin:/home/jinyuqi/nasm:/home/jinyuqi/jre1.7.0_51/bin:/home/jinyuqi/clangwithaddress/bin:/home/jinyuqi/cmakeversion/bin:/home/jinyuqi/qt_creator_2.7.0/qt-creator-2.7.0-src/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/home/jinyuqi/qtcreator-3.2.2/bin:/home/jinyuqi/nodejs/bin:/home/jinyuqi/ruby/bin:/home/jinyuqi/.autojump/bin:/home/jinyuqi/python3/bin:/home/jinyuqi/socat/bin:/home/jinyuqi/nasm:/home/jinyuqi/jre1.7.0_51/bin:/home/jinyuqi/clangwithaddress/bin:/home/jinyuqi/cmakeversion/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

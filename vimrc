@@ -139,6 +139,12 @@ set incsearch
 " 设置搜索高亮(hlsearch)  
 set hls  
 
+map <silent> <Space> :nohls<CR>
+
+" reselect visual block after indent (github.com/hluk/FakeVim)
+vnoremap < <gv
+vnoremap > >gv
+
 " 设置搜索时忽略大小写  
 set ignorecase  
 
