@@ -419,6 +419,9 @@ Plugin 'L9'
 " 画图工具，上下左右画直线，PgUp/PgDn用来画斜线等  
 Plugin 'DrawIt'
 
+" %支持匹配tag进行跳转
+"Plugin 'tmhedberg/matchit'
+
 " align tool -- visual + <leader>t=
 Plugin 'vim-scripts/Align'
 
