@@ -420,7 +420,11 @@ Plugin 'L9'
 Plugin 'DrawIt'
 
 " %支持匹配tag进行跳转
-"Plugin 'tmhedberg/matchit'
+Plugin 'tmhedberg/matchit'
+
+" [a, ]a for arguments, [q, q] for quickfix, [l, l] for location, [t, t] for
+" tag lists
+"Plugin 'tpope/vim-unimpaired'
 
 " align tool -- visual + <leader>t=
 Plugin 'vim-scripts/Align'
