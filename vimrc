@@ -423,7 +423,7 @@ Plugin 'DrawIt'
 Plugin 'tmhedberg/matchit'
 
 " [a, ]a for arguments, [q, q] for quickfix, [l, l] for location, [t, t] for
-" tag lists
+" tag lists (Practical Vim)
 "Plugin 'tpope/vim-unimpaired'
 
 " align tool -- visual + <leader>t=
