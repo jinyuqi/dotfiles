@@ -553,9 +553,6 @@ let g:solarized_termtrans=1
 let g:solarized_contrast="normal"
 let g:solarized_visibility="normal"
 
-" 主题 molokai 
-Plugin 'tomasr/molokai'
-
 "==========================================
 " TagList settings
 "==========================================
