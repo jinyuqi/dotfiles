@@ -1,0 +1,6 @@
+[submodule "molokai"]
+	path = molokai
+	url = http://github.com/tomasr/molokai
+[submodule "Vundle.vim"]
+	path = Vundle.vim
+	url = http://github.com/gmarik/vundle
