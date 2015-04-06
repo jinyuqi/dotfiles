@@ -9,4 +9,6 @@ set hintchars=hjklasdfgyuiopqwertnmzxcvb
 
 set animations
 
+highlight Hint -append font-size:16px;
+
 " vim: set ft=vimperator:
