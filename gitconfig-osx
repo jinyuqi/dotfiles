@@ -1,0 +1,4 @@
+[diff]
+	external = ~/dotfiles/git-opendiff.sh
+[alias]
+	diffall = git-diffall
