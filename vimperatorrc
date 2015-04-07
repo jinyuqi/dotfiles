@@ -7,8 +7,6 @@ source! /Users/jinyuqi/.vimperatorrc.local
 
 set hintchars=hjklasdfgyuiopqwertnmzxcvb
 
-set animations
-
 highlight Hint -append font-size:16px;
 
 " vim: set ft=vimperator:
