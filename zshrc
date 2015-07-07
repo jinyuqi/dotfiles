@@ -83,7 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias firefox='~/application/qtcreator2.7.2/qtcreator'
+alias firefox='/home/jinyuqi/qtcreator-3.2.2/bin/qtcreator\ '
 
 export LD_LIBRARY_PATH="/home/jinyuqi/llvm/lib:${LD_LIBRARY_PATH}"
 
