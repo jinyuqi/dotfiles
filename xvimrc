@@ -66,9 +66,7 @@ endif
 " 设置退出Vim之后内容显示在终端屏幕，可以用于查看和复制
 " 好处:误删什么，如果以前屏幕打开可以用来找回
 " set t_ti= t_te=
-
-" 设置在Vim中可以使用鼠标，防止终端无法拷贝  
-set mouse=a  
+  
 
 " 修复ctrl+m多光标操作选择的bug,但是改变了ctrl+v进行字符选中将包含光标下的字符
 " set selection=inclusive
@@ -177,23 +175,6 @@ set smarttab
 " 不在单词中间折行  
 set lbr  
 
-" Shortcuts for moving between tabs.
-" Alt-j to move to the tab to the left  
-noremap <A-k> gT
-" Alt-k to move to the tab to the right  
-noremap <A-j> gt
-
-" 缩进时取整use multiple of shiftwidth when indenting with '<' and '>'
-" set shiftround
-
-" a buffer becomes hidden when it is abandoned
-" set hidden
-" set wildmode=list:longest
-" set ttyfast
-
-" 00x增减数字时使用十进制
-"set nrformats=
-"
 "==========================================
 " FileEncode Settings
 "==========================================
