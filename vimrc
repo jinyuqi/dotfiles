@@ -1,9 +1,6 @@
 "========================================  
-" File Name: .vimrc  
 " Author: Jin Yuqi  
 " Email: 179386223@qq.com  
-" Description: Vim配置文档  
-" Date: 2014.7.1  
 "========================================  
 
 let mapleader = ','  
@@ -19,7 +16,7 @@ syntax enable
 " 开启语法高亮
 syntax on  
 
-" 设置字体  
+" 设置字体,Linux要用Monaco\ 13,OS X要用Monaco:h13
 set guifont=Monaco\ 11
 
 " 设置历史记录条数  
@@ -82,6 +79,7 @@ set title " change ther terminal's title
 set novisualbell " don't beep
 set noerrorbells " don't beep
 set t_vb=
+autocmd! GUIEnter * set vb t_vb=
 set tm=500
 
 " remember info about open buffers on close
