@@ -421,6 +421,8 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'Valloric/ListToggle'  
 Plugin 'L9'
 
+Plugin 'mileszs/ack.vim'
+
 " 画图工具，上下左右画直线，PgUp/PgDn用来画斜线等  
 Plugin 'DrawIt'
 
