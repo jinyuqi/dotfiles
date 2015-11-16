@@ -143,6 +143,13 @@ map <silent> <Space> :nohls<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+" yank text to clipboard
+noremap <leader>y "*y
+noremap <leader>yy "*yy
+
+" paste text from clipboard
+noremap <leader>p "*p
+
 " 设置搜索时忽略大小写  
 set ignorecase  
 
