@@ -709,7 +709,7 @@ nnoremap <F4> :A<CR>
 " Powerline settings
 "==========================================
 Plugin 'Lokaltog/vim-powerline'  
-let g:Powerline_symbolsa = 'fancy'  
+let g:Powerline_symbols = 'fancy'  
 let g:Powerline_cache_enabled = 1  
 
 ""let g:session_autoload='yes'  
