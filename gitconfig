@@ -2,6 +2,7 @@
 	external = ~/dotfiles/git-meld.sh
 [merge]
     tool = mymeld
+    conflictstyle = diff3
 [mergetool "mymeld"]
     cmd = meld "$LOCAL" "$MERGED" "$REMOTE"
 [alias]
