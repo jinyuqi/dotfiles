@@ -1,10 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
-# and this line should be before from 'source $ZSH/oh-my-zsh.sh'
-fpath=(~/dotfiles/zsh-completions/ $fpath)
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -56,7 +52,9 @@ plugins=(git autojump github)
 export PATH="/home/jinyuqi/qtcreator-3.2.2/bin:/home/jinyuqi/nodejs/bin:/home/jinyuqi/ruby/bin:/home/jinyuqi/.autojump/bin:/home/jinyuqi/python3/bin:/home/jinyuqi/socat/bin:/home/jinyuqi/nasm:/home/jinyuqi/jre1.7.0_51/bin:/home/jinyuqi/clangwithaddress/bin:/home/jinyuqi/cmakeversion/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export EDITOR=gvim
+# after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
+# and this line should be before from 'source $ZSH/oh-my-zsh.sh'
+fpath=(~/dotfiles/zsh-completions/ $fpath)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,5 +88,7 @@ alias firefox='/home/jinyuqi/qtcreator-3.2.2/bin/qtcreator\ '
 export LD_LIBRARY_PATH="/home/jinyuqi/llvm/lib:${LD_LIBRARY_PATH}"
 
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
+
+export EDITOR=gvim
 
 export TERM="xterm-256color"
