@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
 # and this line should be before from 'source $ZSH/oh-my-zsh.sh'
-fpath=(/home/jinyuqi/dotfiles/zsh-completions/ $fpath)
+fpath=(~/dotfiles/zsh-completions/ $fpath)
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -90,3 +90,18 @@ alias firefox='/home/jinyuqi/qtcreator-3.2.2/bin/qtcreator\ '
 export LD_LIBRARY_PATH="/home/jinyuqi/llvm/lib:${LD_LIBRARY_PATH}"
 
 [[ -s /home/jinyuqi/.autojump/etc/profile.d/autojump.sh ]] && source /home/jinyuqi/.autojump/etc/profile.d/autojump.sh
+
+export TERM="xterm-256color"
+
+# Load zsh-syntax-highlighting.
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load zsh-autosuggestions.
+source ~/.zsh/zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically.
+zle-line-init() {
+    zle autosuggest-start
+}
+zle -N zle-line-init
+
