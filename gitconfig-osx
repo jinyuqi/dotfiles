@@ -2,3 +2,6 @@
 	external = ~/dotfiles/git-opendiff.sh
 [alias]
 	diffall = git-diffall
+[user]
+	name = Jin Yuqi
+	email = 179386223@qq.com
