@@ -7,3 +7,5 @@
     cmd = meld "$LOCAL" "$MERGED" "$REMOTE"
 [alias]
 	diffall = git-diffall
+[core]
+	editor = gvim -f
