@@ -49,7 +49,7 @@ plugins=(git autojump github extract)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # after adding this line, you should type rm -f ~/.zcoredump; compinit to rebuild zcompdump
