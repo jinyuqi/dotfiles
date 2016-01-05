@@ -9,3 +9,6 @@
 	diffall = git-diffall
 [core]
 	editor = gvim -f
+[user]
+	name = Jin Yuqi
+	email = 179386223@qq.com
