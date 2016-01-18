@@ -7,3 +7,5 @@
 	email = 179386223@qq.com
 [core]
 	editor = mvim -f
+[push]
+	default = simple

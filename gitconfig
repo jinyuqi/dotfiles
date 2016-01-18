@@ -12,3 +12,5 @@
 [user]
 	name = Jin Yuqi
 	email = 179386223@qq.com
+[push]
+	default = simple
