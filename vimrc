@@ -485,6 +485,14 @@ let g:ctrlp_follow_symlinks=1
 nnoremap <leader>b :CtrlPBuffer<CR>
 nnoremap <leader>d :CtrlPDir<CR>
 
+" map ctrlp to use ctrl-n ctrl-p to move up and down
+let g:ctrlp_prompt_mappings = {
+    \ 'PrtSelectMove("j")':   ['<c-j>', '<c-n>'],
+    \ 'PrtSelectMove("k")':   ['<c-k>', '<c-p>'],
+    \ 'PrtHistory(-1)':       ['<down>'],
+    \ 'PrtHistory(1)':        ['<up>'],
+    \ }
+
 "==============================================================
 " ctrlp-funky settings  ctrlp插件 - 不用ctag进行函数快速跳转
 "==============================================================
