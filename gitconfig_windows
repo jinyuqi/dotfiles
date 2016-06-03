@@ -1,0 +1,16 @@
+[user]
+	name = Jin Yuqi
+[core]
+	editor = \"D:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[diff]
+	tool = beyondcompare4
+[difftool "beyondcompare4"]
+	path = D:/Program Files/Beyond Compare 4/BComp.exe
+	cmd = \"D:/Program Files/Beyond Compare 4/BComp.exe\" \"$LOCAL\" \"$REMOTE\"
+[merge]
+	tool = BeyondCompare4
+	trustExitCode = true
+	keepBackup = false
+[mergetool "BeyondCompare4"]
+	path = D:/Program Files/Beyond Compare 4/BComp.exe
+	cmd = \"D:/Program Files/Beyond Compare 4/BComp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
