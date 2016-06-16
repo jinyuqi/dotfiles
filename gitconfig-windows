@@ -14,3 +14,7 @@
 [mergetool "BeyondCompare4"]
 	path = D:/Program Files/Beyond Compare 4/BComp.exe
 	cmd = \"D:/Program Files/Beyond Compare 4/BComp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+[mergetool]
+	keepBackup = false
+[difftool]
+	prompt = false
