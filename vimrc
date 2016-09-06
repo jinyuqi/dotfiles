@@ -375,8 +375,8 @@ set go-=r
 set go-=L
 
 " 设置水平行数和竖直列数  
-set lines=35  
-set columns=99  
+"set lines=35  
+"set columns=99  
 
 "==========================================
 " Vundle Settings
