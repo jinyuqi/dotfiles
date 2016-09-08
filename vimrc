@@ -137,7 +137,7 @@ set incsearch
 " 设置搜索高亮(hlsearch)  
 set hls  
 
-map <silent> <Space> :nohls<CR>
+map <silent> <Space> :nohls<CR>:ccl<CR>
 
 " reselect visual block after indent (github.com/hluk/FakeVim)
 vnoremap < <gv
