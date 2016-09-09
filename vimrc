@@ -396,7 +396,7 @@ if executable('ag')
 " bind K to grep word under cursor
 "nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 " use ag.vim instead
-nnoremap K :Ag "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap K :Ag "\b<C-R><C-W>\b"<CR>
 
 " bind \ (backward slash) to grep shortcut
 " ag.vim does not need it
