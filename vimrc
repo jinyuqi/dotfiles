@@ -480,6 +480,8 @@ Plugin 'grep.vim'
 " Git repos on your local machine (i.e. when working on your own plugin)  
 "Plugin 'file:///Users/gmarik/path/to/plugin'  
 
+Plugin 'rking/ag.vim'
+
 "==========================================
 " ctrlp settings  
 "==========================================
