@@ -456,6 +456,7 @@ Plugin 'DrawIt'
 
 " %支持匹配tag进行跳转
 Plugin 'tmhedberg/matchit'
+Plugin 'tomasr/molokai'
 
 " [a, ]a for arguments, [q, q] for quickfix, [l, l] for location, [t, t] for
 " tag lists (Practical Vim)
@@ -463,6 +464,7 @@ Plugin 'tmhedberg/matchit'
 
 " align tool -- visual + <leader>t=
 Plugin 'vim-scripts/Align'
+Plugin 'vim-scripts/Conque-GDB'
 
 "Plugin 'vim-scripts/TagHighlight'
 
