@@ -473,7 +473,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'tomtom/hookcursormoved_vim'
 Plugin 'tomtom/viki_vim'
 
-Plugin 'jeaye/color_coded'
+"Plugin 'jeaye/color_coded'
 
 Plugin 'rdnetto/YCM-Generator'
 
