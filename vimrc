@@ -464,7 +464,7 @@ Plugin 'tomasr/molokai'
 
 " align tool -- visual + <leader>t=
 Plugin 'vim-scripts/Align'
-Plugin 'vim-scripts/Conque-GDB'
+"Plugin 'vim-scripts/Conque-GDB'
 
 "Plugin 'vim-scripts/TagHighlight'
 
@@ -656,7 +656,7 @@ nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 "==========================================
 " Syntastic settings
 "==========================================
-Plugin 'scrooloose/syntastic'  
+"Plugin 'scrooloose/syntastic'  
 " 在打开文件的时候检查  
 let g:syntastic_check_on_open = 1  
 let g:syntastic_cpp_include_dirs = ['/usr/include/']  
