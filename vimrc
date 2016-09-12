@@ -684,6 +684,7 @@ Plugin 'scrooloose/nerdtree'
 let NERDTreeWinPos='left'  
 let NERDTreeHighlightCursorline=1
 nnoremap <leader>n :NERDTreeToggle<CR>  
+map <leader>r :NERDTreeFind<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif  
 "let NERDTreeIgnore = ['\.swp$','\.~$','\.o$','\.lib$','\.so$','\.dll$','\.zip$','\.tar$','\.tar.gz$','\.out$','\.db$','\.zip$']
 
