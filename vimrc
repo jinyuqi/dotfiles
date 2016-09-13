@@ -760,6 +760,12 @@ let g:Powerline_cache_enabled = 1
 ""let g:session_autoload='yes'  
 ""let g:session_autosave='yes'  
 
+"==========================================
+" rtags settings
+"==========================================
+Plugin 'lyuts/vim-rtags'
+let g:rtagsUseLocationList = 0
+
 " 因为Vundle需要关闭filetype,而之后的插件如果想要正常使用，必须要打开filetype
 " 所以必须确保所有插件的加载过程在之前已经全部添加完毕
 " All of your Plugins must be added before the following line
