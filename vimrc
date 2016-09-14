@@ -464,17 +464,11 @@ Plugin 'tomasr/molokai'
 
 " align tool -- visual + <leader>t=
 Plugin 'vim-scripts/Align'
-"Plugin 'vim-scripts/Conque-GDB'
-
 "Plugin 'vim-scripts/TagHighlight'
-
-" Viki -- Vim Wiki
 Plugin 'tomtom/tlib_vim'
 Plugin 'tomtom/hookcursormoved_vim'
 Plugin 'tomtom/viki_vim'
-
 "Plugin 'jeaye/color_coded'
-
 Plugin 'rdnetto/YCM-Generator'
 
 " vim-scripts repos  
@@ -676,6 +670,12 @@ let g:syntastic_always_populate_loc_list = 1
 "==========================================
 let g:lt_location_list_toggle_map = '<leader>l'  
 let g:lt_quickfix_list_toggle_map = '<leader>q'  
+
+"==========================================
+" Conque-GDB settings
+"==========================================
+Plugin 'vim-scripts/Conque-GDB'
+let g:ConqueGdb_Leader = "'"
 
 "==========================================
 " NERDtree settings
