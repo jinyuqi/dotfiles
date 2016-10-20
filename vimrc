@@ -35,7 +35,7 @@ filetype plugin on
 filetype plugin indent on
 
 " 文件修改之后自动读入
-set autoread
+"set autoread
 
 " 启动后不显示提示
 "set shortmess=atI
