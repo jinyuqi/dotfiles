@@ -437,6 +437,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'  
 Plugin 'Lokaltog/vim-easymotion'  
 
+" use :DirDiff <dir1> <dir2>
+Plugin 'will133/vim-dirdiff'
+
 " 自动补全单引号，双引号等
 "Plugin 'Raimondi/delimitMate'
 Plugin 'jiangmiao/auto-pairs'
