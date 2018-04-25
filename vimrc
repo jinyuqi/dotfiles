@@ -654,7 +654,7 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0   "注释和字符�
 let g:ycm_error_symbol = '>>'
 let g:ycm_warning_symbol = '>*'
 " 跳到定义或声明  
-nnoremap <F2> :YcmCompleter GoTo<CR>  
+nnoremap <A-g> :YcmCompleter GoTo<CR>  
 " 强制进行编译  
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>  
 
