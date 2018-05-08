@@ -1,0 +1,8 @@
+#
+# Author: %USER%
+# Email: %MAIL%
+# Date: %YEAR%.%MONTH%.%DAY%
+#
+
+all:
+	%HERE%@echo "%FFILE% needs your attention"
