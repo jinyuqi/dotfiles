@@ -379,8 +379,8 @@ set go-=L
 "set columns=99  
 
 " quick fix
-nmap <silent> <DOWN> :cnext<CR>
-nmap <silent> <UP> :cprevious<CR>
+nmap <silent> <F3> :cnext<CR>
+nmap <silent> <F4> :cprevious<CR>
 
 " the silver search settings
 if executable('ag')
