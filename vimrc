@@ -777,6 +777,17 @@ let g:Powerline_cache_enabled = 1
 Plugin 'lyuts/vim-rtags'
 let g:rtagsUseLocationList = 0
 
+Plugin 'aperezdc/vim-template'
+let g:username = 'Jin Yuqi (Ricky)'
+
+"Plugin 'alpertuna/vim-header'
+"let g:header_field_filename = 0
+"let g:header_field_author = 'Jin Yuqi (Ricky)'
+"let g:header_field_author_email = 'jinyq@new-rt.com'
+"let g:header_field_modified_timestamp = 0
+"let g:header_field_modified_by = 0
+"let g:header_field_timestamp_format = '%Y.%m.%d'
+
 " 因为Vundle需要关闭filetype,而之后的插件如果想要正常使用，必须要打开filetype
 " 所以必须确保所有插件的加载过程在之前已经全部添加完毕
 " All of your Plugins must be added before the following line
