@@ -373,6 +373,8 @@ set guioptions-=T
 " 去除左右两边滚动条
 set go-=r
 set go-=L
+"set go-=r
+"set go-=L
 
 " 设置水平行数和竖直列数  
 "set lines=35  
