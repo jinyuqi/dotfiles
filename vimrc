@@ -371,8 +371,6 @@ set guioptions-=m
 set guioptions-=T  
 
 " 去除左右两边滚动条
-set go-=r
-set go-=L
 "set go-=r
 "set go-=L
 
