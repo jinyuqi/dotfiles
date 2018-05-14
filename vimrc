@@ -375,8 +375,10 @@ set guioptions-=T
 "set go-=L
 
 " 设置水平行数和竖直列数  
-"set lines=35  
-"set columns=99  
+if has("gui_running")
+    set lines=999  
+    set columns=999  
+endif
 
 " quick fix
 nmap <silent> <F3> :cnext<CR>
