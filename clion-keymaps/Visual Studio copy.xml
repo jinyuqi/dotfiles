@@ -1,0 +1,110 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="CIDR.Lang.Cpp.GenerateDefinitions">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
+  <action id="CIDR.Lang.ImportsHierarchy">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+    <keyboard-shortcut first-keystroke="shift alt i" />
+  </action>
+  <action id="CMake.CompileCurrentFile">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="CMake.ReloadCMakeProject">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
+  <action id="ChangesView.Move" />
+  <action id="CodeInspection.OnEditor" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="alt f5" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditSource" />
+  <action id="ExportToTextFile" />
+  <action id="FindNext" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="shift alt g" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift alt o" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="ctrl alt home" />
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
+  <action id="MethodHierarchy.BaseOnThisMethod">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="NextTab" />
+  <action id="OpenFile" />
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="PreviousTab" />
+  <action id="RecentChanges" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RerunTests" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
+  <action id="Vcs.EditSource" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.JumpToSource" />
+  <action id="XDebugger.SetValue" />
+  <action id="context.save" />
+  <action id="hg4idea.QGotoFromPatches" />
+  <action id="tasks.goto" />
+  <action id="tasks.switch" />
+</keymap>

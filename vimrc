@@ -372,7 +372,7 @@ set guioptions-=T
 
 " 去除左右两边滚动条
 "set go-=r
-"set go-=L
+set go-=L
 
 " 设置水平行数和竖直列数  
 if has("gui_running")
@@ -479,7 +479,7 @@ Plugin 'vim-scripts/Align'
 Plugin 'tomtom/tlib_vim'
 Plugin 'tomtom/hookcursormoved_vim'
 Plugin 'tomtom/viki_vim'
-"Plugin 'jeaye/color_coded'
+Plugin 'jeaye/color_coded'
 Plugin 'rdnetto/YCM-Generator'
 
 " vim-scripts repos  
@@ -696,6 +696,13 @@ let g:ConqueGdb_Leader = "'"
 Plugin 'scrooloose/nerdtree'  
 let NERDTreeWinPos='left'  
 let NERDTreeHighlightCursorline=1
+"let NERDTreeGlyphReadOnly = "RO"
+" NERDTree setting defaults to work around
+" http://github.com/scrooloose/nerdtree/issues/489
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
 nnoremap <leader>n :NERDTreeToggle<CR>  
 map <leader>r :NERDTreeFind<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif  
@@ -781,6 +788,7 @@ let g:rtagsUseLocationList = 0
 
 Plugin 'aperezdc/vim-template'
 let g:username = 'Jin Yuqi (Ricky)'
+let g:email = 'jinyq@new-rt.com'
 
 "Plugin 'alpertuna/vim-header'
 "let g:header_field_filename = 0
