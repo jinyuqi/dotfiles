@@ -1,10 +1,14 @@
-set auto-load safe-path /
-python 
-import sys 
-sys.path.insert(0, '/home/jinyuqi/.gdb') 
-
-from qt4 import register_qt4_printers
-register_qt4_printers (None)
+# use this can print STL containers's content
+python
+import sys
+sys.path.insert(0, "/home/user/gdb-printers/libstdc++-v3/python")
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
 end
-set print pretty 1
 
+set history filename ~/.gdb_history
+set history save on
+
+set print array-indexes on
+
+set print pretty on
