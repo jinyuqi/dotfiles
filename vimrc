@@ -150,6 +150,10 @@ noremap <leader>yy "*yy
 " paste text from clipboard
 noremap <leader>p "*p
 
+" saves the file (handling the permission-denied error)
+" https://medium.com/@hql287/10-vim-tips-to-ease-the-learning-curve-c8234cbdafa5
+cnoremap w!! w !sudo tee % >/dev/null
+
 " 设置搜索时忽略大小写  
 set ignorecase  
 
