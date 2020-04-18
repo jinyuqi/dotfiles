@@ -76,7 +76,7 @@ set mouse=a
 
 " no errors sound
 set title " change ther terminal's title
-set novisualbell " don't beep
+set visualbell " don't beep
 set noerrorbells " don't beep
 set t_vb=
 autocmd! GUIEnter * set vb t_vb=
