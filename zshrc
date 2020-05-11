@@ -117,13 +117,22 @@ export RTIMEHOME=/home/user/work/PDT/thirdParty/rti_connext_micro.2.4.11
 export FPP_EDITOR=code
 
 # when in fzf you can press ctrl-o to open vscode
-export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort',ctrl-f:page-down,ctrl-b:page-up"
 
 # change built-in find command to rust fd
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow -I --exclude .git'
 
 # make Ctrl-T fzf output as well as fzf to use fd command instead
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# make Ctrl-T preview enable
+export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :500 {}'"
+
+# make Alt-C use fd to change directory
+export FZF_ALT_C_COMMAND='fd --type d --hidden --follow -I --exclude .git'
+
+# make Alt-C preview for files like tree command enable
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -100'"
 
 # when use globl * it can also output hidden files which start with dot(.)
 setopt dotglob
