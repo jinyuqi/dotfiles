@@ -120,7 +120,10 @@ export FPP_EDITOR=code
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 # change built-in find command to rust fd
-export FZF_DEFAULT_COMMAND='fd'
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+
+# make Ctrl-T fzf output as well as fzf to use fd command instead
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # when use globl * it can also output hidden files which start with dot(.)
 setopt dotglob
