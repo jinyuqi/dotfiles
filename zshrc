@@ -112,11 +112,21 @@ export PATH=/home/user/bin/tldr:/home/user/tools:/opt/eclipse:$EPICS_BASE_BIN:/h
 #export LD_LIBRARY_PATH=$EPICS_BASE_LIB:$LD_LIBRARY_PATH
 export NDDSHOME=~/rti_connext_dds-5.3.1
 export RTIMEHOME=/home/user/work/PDT/thirdParty/rti_connext_micro.2.4.11
+
+# when in fpp, default action is opened with vscode
 export FPP_EDITOR=code
+
+# when in fzf you can press ctrl-o to open vscode
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+
+# change built-in find command to rust fd
 export FZF_DEFAULT_COMMAND='fd'
 
+# when use globl * it can also output hidden files which start with dot(.)
 setopt dotglob
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval $(thefuck --alias)
 
 alias "c=xclip"
 alias "v=xclip -o"
@@ -124,15 +134,9 @@ alias "cs=xclip -selection clipboard"
 alias "vs=xclip -o -selection clipboard"
 alias "css=xclip -selection primary"
 alias "vss=xclip -o -selection primary"
-
-eval $(thefuck --alias)
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 alias "cat=bat"
 alias "less=bat"
 alias "ping=prettyping"
 alias "du=ncdu"
 alias "top=htop"
 alias "fzf=fzf -m --preview 'bat --color=always {} | head -500'"
-
