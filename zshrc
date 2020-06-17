@@ -108,7 +108,7 @@ export EPICS_BASE=$EPICS_ROOT/base
 export EPICS_BASE_BIN=$EPICS_BASE/bin/linux-x86_64
 export EPICS_BASE_LIB=$EPICS_BASE/lib/linux-x86_64
 
-export PATH=/home/user/bin/tldr:/home/user/tools:/opt/eclipse:$EPICS_BASE_BIN:/home/user/ninja:/home/user/clion-2020.1/bin:/home/user/the_silver_searcher:/home/user/uftrace/bin:/home/user/PathPicker:$PATH
+export PATH=/home/.cargo/bin:/home/user/bin/tldr:/home/user/tools:/opt/eclipse:$EPICS_BASE_BIN:/home/user/ninja:/home/user/clion-2020.1/bin:/home/user/the_silver_searcher:/home/user/uftrace/bin:/home/user/PathPicker:$PATH
 #export LD_LIBRARY_PATH=$EPICS_BASE_LIB:$LD_LIBRARY_PATH
 export NDDSHOME=~/rti_connext_dds-5.3.1
 export RTIMEHOME=/home/user/work/PDT/thirdParty/rti_connext_micro.2.4.11
@@ -153,3 +153,6 @@ alias "du=ncdu"
 alias "top=htop"
 alias "fzf=fzf -m --preview 'bat --color=always {} | head -500'"
 alias "fd=fd -I --hidden --follow"
+alias "pbcopy=xclip -selection clipboard"
+alias "pbpaste=xclip -selection clipboard -o"
+alias "rg=rg --hidden --no-ignore"

@@ -26,11 +26,6 @@
   <action id="CMake.ReloadCMakeProject">
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
-  <action id="CallHierarchy">
-    <keyboard-shortcut first-keystroke="ctrl alt h" />
-    <keyboard-shortcut first-keystroke="shift alt h" />
-    <keyboard-shortcut first-keystroke="ctrl alt c" />
-  </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl f6" />
     <keyboard-shortcut first-keystroke="ctrl alt r" />
@@ -38,6 +33,9 @@
   <action id="ChangesView.Move" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="CodeInspection.OnEditor" />
   <action id="Compare.SameVersion">
@@ -76,6 +74,9 @@
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="shift alt n" />
     <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="Git.Rebase">
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -125,7 +126,6 @@
   <action id="OpenFile" />
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="shift alt e" />
-    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="PerforceDirect.Edit" />
   <action id="PreviousOccurence">
@@ -154,13 +154,26 @@
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy">
-    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
+  <action id="TypeHierarchyBase.BaseOnThisType">
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="Vcs.EditSource" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
   <action id="VcsHistory.ShowAllAffected" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="alt f9" />
@@ -169,9 +182,11 @@
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource" />
   <action id="XDebugger.SetValue" />
+  <action id="context.load" />
   <action id="context.save" />
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QGotoFromPatches" />
+  <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
   <action id="tasks.goto" />
   <action id="tasks.open.in.browser" />
