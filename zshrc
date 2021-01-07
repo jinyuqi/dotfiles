@@ -140,6 +140,7 @@ setopt dotglob
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval $(thefuck --alias)
 
+alias "cht=cht.sh"
 alias "c=xclip"
 alias "v=xclip -o"
 alias "cs=xclip -selection clipboard"
@@ -155,4 +156,4 @@ alias "fzf=fzf -m --preview 'bat --color=always {} | head -500'"
 alias "fd=fd -I --hidden --follow"
 alias "pbcopy=xclip -selection clipboard"
 alias "pbpaste=xclip -selection clipboard -o"
-alias "rg=rg --hidden --no-ignore"
+alias "rg=rg --hidden --no-ignore -S"
